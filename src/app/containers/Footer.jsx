@@ -15,7 +15,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import ThemeToggle from '../components/ThemeToggle';
-import toggleTheme from '../helpers/toggleTheme';
+import toggleTheme from '../theme/toggleTheme';
 
 function Footer(props) {
   const {
