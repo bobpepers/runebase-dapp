@@ -13,15 +13,23 @@ import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 import ThemeToggle from '../components/ThemeToggle';
+import toggleTheme from '../helpers/toggleTheme';
 
 function Footer(props) {
   const {
     i18n,
+    theme,
   } = props;
   const LANGUAGE_KEY = 'language';
   const [language, setLanguage] = useState('');
   const [anchorElLang, setAnchorElLang] = useState(null);
+  useEffect(() => {
+    toggleTheme(theme);
+  }, [
+    theme,
+  ]);
 
   const changeLanguage = (lng) => {
     i18n.activate(lng);
@@ -194,6 +202,13 @@ Footer.propTypes = {
   i18n: PropTypes.shape({
     activate: PropTypes.func.isRequired,
   }).isRequired,
+  theme: PropTypes.shape({
+    theme: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
-export default Footer;
+const mapStateToProps = (state) => ({
+  theme: state.theme,
+})
+
+export default connect(mapStateToProps, null)(Footer);
