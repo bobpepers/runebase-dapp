@@ -22,6 +22,7 @@ import { messages as frMessages } from './locales/fr/messages';
 import LoadingContainer from './containers/Loading';
 import ScrollToTop from './handle/ScrollToTop';
 import './theme/style.scss';
+import RunebaseListener from './runebaseListener';
 
 const Particles = lazy(() => import('./components/Particles'));
 const Header = lazy(() => import('./containers/Header'));
@@ -134,18 +135,20 @@ function App() {
               }}
               action={(key) => <DismissAction id={key} />}
             >
-              <BrowserRouter>
-                <ScrollToTop />
-                <Suspense fallback={<LoadingContainer />}>
-                  <Notifier />
-                  <Particles />
-                  <Header />
-                  <Routes />
-                  <Footer
-                    i18n={i18n}
-                  />
-                </Suspense>
-              </BrowserRouter>
+              <RunebaseListener>
+                <BrowserRouter>
+                  <ScrollToTop />
+                  <Suspense fallback={<LoadingContainer />}>
+                    <Notifier />
+                    <Particles />
+                    <Header />
+                    <Routes />
+                    <Footer
+                      i18n={i18n}
+                    />
+                  </Suspense>
+                </BrowserRouter>
+              </RunebaseListener>
             </SnackbarProvider>
           </Provider>
         </ThemeProvider>
