@@ -1,0 +1,11 @@
+{
+   "locales": ["en", "nl", "fr"],
+   "catalogs": [{
+      "path": "src/app/locales/{locale}/messages",
+      "include": ["src"]
+   }],
+   "format": "po",
+   "fallbackLocales": {
+      "default": "en"
+   }
+}

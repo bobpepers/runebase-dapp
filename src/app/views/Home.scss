@@ -1,0 +1,83 @@
+.zindexOne {
+  z-index: 1;
+}
+
+#info {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#info > section {
+  position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+a, button {
+    transition: all 0.2s ease-in-out 0s;
+}
+
+a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+}
+
+#root{
+  height: 100%;
+}
+
+#clouds{
+  height: inherit !important;
+}
+
+#clouds > canvas{
+  height: inherit !important;
+  z-index: -1 !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.input-group {
+  display: block !important;
+}
+
+.has-error textarea[type='text'], .has-error textarea[type='password'] {
+  border: 1px solid #e15258;
+}
+
+.index600 {
+ z-index: 600;
+ position: relative;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+// .highlight {
+//   text-shadow:
+//     -1px -1px 0 #4caf50,
+//     1px -1px 0 #4caf50,
+//     -1px 1px 0 #4caf50,
+//     1px 1px 0 #4caf50;
+// }
+
+.botExampleGifs {
+  width: 100%;
+}
+.addExampleTextMarginLeft {
+  margin-left: 1rem;
+}

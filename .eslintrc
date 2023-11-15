@@ -1,0 +1,27 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "js": true,
+      "jsx": true
+    }
+  },
+  "extends": "airbnb",
+  "rules": {
+    "func-names": 0,
+    "semi": 0,
+    "max-len": 0,
+    "default-param-last": "off",
+    "import/prefer-default-export": "off",
+    "react/jsx-props-no-spreading": "off",
+    "indent": [
+      "error",
+      2
+    ]
+  },
+  "globals": {
+    "document": true,
+    "window": true,
+    "localStorage": true
+  }  
+}

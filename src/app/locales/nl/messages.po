@@ -1,0 +1,774 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-04 11:53+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: src/app/views/PrivacyPolicy.jsx:87
+msgid "1. Introduction"
+msgstr "1. Introductie"
+
+#: src/app/views/PrivacyPolicy.jsx:189
+msgid "2. Information we may collect about you"
+msgstr "2. Informatie die we over u kunnen verzamelen"
+
+#: src/app/views/PrivacyPolicy.jsx:231
+msgid "3. Collecting, processing and using personal data"
+msgstr "3. Verzamelen, verwerken en gebruiken van persoonsgegevens"
+
+#: src/app/views/PrivacyPolicy.jsx:259
+msgid "4. Why we collect information about you (purpose of processing)"
+msgstr "4. Waarom we informatie over u verzamelen (doel van verwerking)"
+
+#: src/app/views/PrivacyPolicy.jsx:282
+msgid "5. Log files"
+msgstr "5. Logboek bestanden"
+
+#: src/app/views/PrivacyPolicy.jsx:305
+msgid "6. Data sharing"
+msgstr "6. Het delen van gegevens"
+
+#: src/app/views/PrivacyPolicy.jsx:346
+msgid "7. Your rights"
+msgstr "7. Jou rechten"
+
+#: src/app/components/Uptimerobot.jsx:117
+msgid "<br />Faulted: {0} time<br />outage-time: {1}<br />availability: {2}%"
+msgstr "<br />Defect: {0} tijd<br />uitvaltijd: {1}<br />beschikbaarheid: {2}%"
+
+#: src/app/components/Uptimerobot.jsx:111
+msgid "<br />availability: {0}%"
+msgstr "<br />beschikbaarheid: {0}%"
+
+#: src/app/views/Home.jsx:165
+#~ msgid "A rich arsenal of features like tip, multi-tip, rain, flood, soak, sleet, voicerain, hurricane, thunderstorm, thunder, reactdrop, trivia, faucet, help, info, balance, statistics, ignoreme, support, ..."
+#~ msgstr "Een rijk arsenaal aan functies zoals tip, multi-tip, rain, flood, soak, sleet, voicerain, hurricane, thunderstorm, thunder, reactdrop, trivia, faucet, help, info, balance, statistics, ignoreme, support, ..."
+
+#: src/app/views/TermsOfService.jsx:168
+#~ msgid "Abuse"
+#~ msgstr "Misbruik"
+
+#: src/app/views/dashboard/ActivityHistory.jsx:140
+msgid "Activity History"
+msgstr ""
+
+#: src/app/views/TermsOfService.jsx:226
+msgid "Agreement to Terms"
+msgstr ""
+
+#: src/app/views/TermsOfService.jsx:120
+msgid "All transactions made through{0}{1} are final and non-refundable. {2} shall not reverse or refund any transactions made by the user. The user shall be solely responsible for ensuring the accuracy and completeness of all transactions made through the software."
+msgstr ""
+
+#: src/app/views/Support.jsx:106
+msgid "Alternatively you can fill out the form below."
+msgstr "Als alternatief kunt u onderstaand formulier invullen."
+
+#: src/app/views/TermsOfService.jsx:191
+#~ msgid "Always keep small sums of coins in your {0}'s{1}wallet"
+#~ msgstr "Bewaar altijd kleine bedragen munten in uw  {0}'s{1}portemonnee"
+
+#: src/app/components/DiscordCommands.jsx:126
+#: src/app/components/TelegramCommands.jsx:192
+msgid "Balance"
+msgstr "Balans"
+
+#: src/app/containers/Header.jsx:156
+msgid "Bots Help"
+msgstr ""
+
+#: src/app/views/TermsOfService.jsx:234
+msgid "By accessing and utilizing {0}, the user agrees to be bound by the terms and conditions outlined in this document."
+msgstr ""
+
+#: src/app/components/TipbotInfo.jsx:91
+#: src/app/views/Tipbot.jsx:101
+msgid "ChangeLog"
+msgstr ""
+
+#: src/app/views/ChangeLog.jsx:56
+msgid "ChangeLog - {botName}"
+msgstr ""
+
+#: src/app/components/TelegramCommands.jsx:576
+msgid "Claim a small amount of {0}{1}from the faucet"
+msgstr "Claim een ​​klein bedrag van {0}{1}uit de kraan"
+
+#: src/app/views/CoinInfo.jsx:451
+msgid "Coin Info - {0}"
+msgstr ""
+
+#: src/app/containers/Header.jsx:99
+msgid "Dashboard"
+msgstr ""
+
+#: src/app/components/DiscordCommands.jsx:244
+#: src/app/components/TelegramCommands.jsx:474
+msgid "Deposit"
+msgstr "Storting"
+
+#: src/app/views/TermsOfService.jsx:88
+msgid "Disclaimer of Liability"
+msgstr ""
+
+#: src/app/components/DiscordCommands.jsx:37
+msgid "Discord Commands"
+msgstr "Discord Commando's"
+
+#: src/app/views/Home.jsx:222
+#~ msgid "Discord Tipbots"
+#~ msgstr "Discord Tipbots"
+
+#: src/app/components/TelegramCommands.jsx:111
+msgid "Display current {0}{1}price"
+msgstr "Toon huidige {0}{1}prijs"
+
+#: src/app/components/TelegramCommands.jsx:201
+msgid "Display {0}{1}balance"
+msgstr "Toon {0}{1}balans"
+
+#: src/app/components/DiscordCommands.jsx:1101
+msgid "Displays mining info"
+msgstr "Toon mining info"
+
+#: src/app/components/DiscordCommands.jsx:1066
+msgid "Displays time left until next halving, etc"
+msgstr "Toont de resterende tijd tot de volgende halvering, enzovoort"
+
+#: src/app/components/DiscordCommands.jsx:135
+msgid "Displays your {0}{1}balance"
+msgstr "Toont uw {0}{1}balans"
+
+#: src/app/components/TelegramCommands.jsx:483
+msgid "Displays your {0}{1}deposit address"
+msgstr "Toont uw {0}{1}stortingsadres"
+
+#: src/app/components/DiscordCommands.jsx:214
+msgid "Displays your {0}{1}tip statistics"
+msgstr "Toont uw {0}{1}tip statistieken"
+
+#: src/app/components/DiscordCommands.jsx:97
+#: src/app/components/TelegramCommands.jsx:156
+msgid "Displays {0}{1}coin info"
+msgstr "Toont {0}{1}munt informatie"
+
+#: src/app/components/DiscordCommands.jsx:253
+msgid "Displays {0}{1}deposit address and QR code"
+msgstr "Toont {0}{1}stortings adres en QR code"
+
+#: src/app/components/DiscordCommands.jsx:292
+#: src/app/components/TelegramCommands.jsx:246
+msgid "Displays {0}{1}fee schedule"
+msgstr "Toont {0}{1}tarief schema"
+
+#: src/app/components/DiscordCommands.jsx:59
+#: src/app/components/TelegramCommands.jsx:59
+msgid "Displays {0}{1}help message"
+msgstr "Toont {0}{1}help bericht"
+
+#: src/app/components/DiscordCommands.jsx:175
+msgid "Displays {0}{1}price"
+msgstr "Toont {0}{1}prijs"
+
+#: src/app/components/Uptimerobot.jsx:34
+msgid "Down"
+msgstr "Down"
+
+#: src/app/views/PrivacyPolicy.jsx:290
+msgid "During every interaction with the Service, user data is store in a database and protocol files, the so-called log files. The datasets stored here may contain such data as date and time of the interaction, ID and username of the interacting user, the command used, ID and name of the Discord Server in which the interaction took place as well as the ID and name of the Discord Channel the interaction took place in."
+msgstr "Tijdens elke interactie met de Dienst worden gebruikersgegevens opgeslagen in een database en protocolbestanden, de zogenaamde logbestanden. De opgeslagen datasets kunnen gegevens bevatten zoals datum en tijd van de interactie, ID en gebruikersnaam van de interagerende gebruiker, het gebruikte commando, ID en naam van de Discord Server waarop de interactie plaatsvond, evenals de ID en naam van het Discord Kanaal waarin de interactie plaatsvond."
+
+#: src/app/views/TermsOfService.jsx:202
+#~ msgid "Even if we keep up with industry standards in terms of security practices, we ask you to not keep huge sums on the bot. Please keep them in a non-custodial wallet."
+#~ msgstr "Ook al houden wij ons aan de veiligheidsnormen van de industrie, toch vragen wij u geen grote bedragen op de bot te bewaren. Gelieve ze te bewaren in een niet-custodiale portemonnee."
+
+#: src/app/components/DiscordCommands.jsx:66
+#: src/app/components/DiscordCommands.jsx:104
+#: src/app/components/DiscordCommands.jsx:142
+#: src/app/components/DiscordCommands.jsx:182
+#: src/app/components/DiscordCommands.jsx:221
+#: src/app/components/DiscordCommands.jsx:260
+#: src/app/components/DiscordCommands.jsx:299
+#: src/app/components/DiscordCommands.jsx:338
+#: src/app/components/DiscordCommands.jsx:386
+#: src/app/components/DiscordCommands.jsx:455
+#: src/app/components/DiscordCommands.jsx:509
+#: src/app/components/DiscordCommands.jsx:563
+#: src/app/components/DiscordCommands.jsx:617
+#: src/app/components/DiscordCommands.jsx:671
+#: src/app/components/DiscordCommands.jsx:725
+#: src/app/components/DiscordCommands.jsx:779
+#: src/app/components/DiscordCommands.jsx:834
+#: src/app/components/DiscordCommands.jsx:887
+#: src/app/components/DiscordCommands.jsx:941
+#: src/app/components/DiscordCommands.jsx:993
+#: src/app/components/DiscordCommands.jsx:1032
+#: src/app/components/DiscordCommands.jsx:1071
+#: src/app/components/DiscordCommands.jsx:1106
+#: src/app/components/DiscordCommands.jsx:1147
+#: src/app/components/TelegramCommands.jsx:66
+#: src/app/components/TelegramCommands.jsx:118
+#: src/app/components/TelegramCommands.jsx:163
+#: src/app/components/TelegramCommands.jsx:208
+#: src/app/components/TelegramCommands.jsx:253
+#: src/app/components/TelegramCommands.jsx:290
+#: src/app/components/TelegramCommands.jsx:352
+#: src/app/components/TelegramCommands.jsx:398
+#: src/app/components/TelegramCommands.jsx:444
+#: src/app/components/TelegramCommands.jsx:490
+#: src/app/components/TelegramCommands.jsx:535
+#: src/app/components/TelegramCommands.jsx:583
+msgid "Examples:"
+msgstr "Voorbeelden:"
+
+#: src/app/components/DiscordCommands.jsx:1016
+#: src/app/components/TelegramCommands.jsx:567
+msgid "Faucet"
+msgstr "Faucet"
+
+#: src/app/components/DiscordCommands.jsx:283
+#: src/app/components/TelegramCommands.jsx:237
+msgid "Fees"
+msgstr "Kosten"
+
+#: src/app/components/DiscordCommands.jsx:547
+#: src/app/components/TelegramCommands.jsx:336
+msgid "Flood"
+msgstr "Overstroming"
+
+#: src/app/components/TelegramCommands.jsx:345
+msgid "Floods the desired amount of {0}{1}onto all users (including offline users)"
+msgstr "Overvloeit de gewenste hoeveelheid {0}{1} naar alle gebruikers (inclusief offline gebruikers)"
+
+#: src/app/components/DiscordCommands.jsx:556
+msgid "Floods the desired amount of {0}{1}onto all users, including offline users (optionally, within specified role)"
+msgstr "Overstroomt de gewenste hoeveelheid {0}{1}onto alle gebruikers, inclusief offline gebruikers (optioneel, binnen gespecificeerde rol)"
+
+#: src/app/components/DiscordCommands.jsx:1025
+msgid "Gets a small amount of {0}{1}from the faucet (applicable every 4 hours)"
+msgstr "Krijgt een kleine hoeveelheid {0}{1} uit de faucet (van toepassing elke 4 uur)"
+
+#: src/app/components/DiscordCommands.jsx:1057
+msgid "Halving"
+msgstr "Halvering"
+
+#: src/app/components/DiscordCommands.jsx:50
+#: src/app/components/TelegramCommands.jsx:50
+msgid "Help"
+msgstr "Help"
+
+#: src/app/containers/Header.jsx:80
+msgid "Home"
+msgstr "Home"
+
+#: src/app/components/DiscordCommands.jsx:818
+msgid "Hurricane"
+msgstr "Orkaan"
+
+#: src/app/views/TermsOfService.jsx:176
+#~ msgid "If you are found abusing any systems, your funds will be frozen and seized. We reserve the right to freeze suspicious accounts as well, until proven innocent."
+#~ msgstr "Als u gevonden word met misbruik maken van ons systeem, zal uw geld worden bevroren en zelfs in beslag genomen worden. Wij behouden ons het recht voor om ook verdachte rekeningen te bevriezen, totdat het tegendeel bewezen is."
+
+#: src/app/views/PrivacyPolicy.jsx:106
+msgid "If you have any questions or comments about this Privacy Policy, please contact {0}{1}support or the developer through discord"
+msgstr "Als u vragen of opmerkingen heeft over dit privacybeleid, neem dan contact op met {0}{1}support of de ontwikkelaar via discord"
+
+#: src/app/components/DiscordCommands.jsx:979
+msgid "IgnoreMe"
+msgstr "NegeerMe"
+
+#: src/app/views/TermsOfService.jsx:98
+#~ msgid "In no event shall {0}{1}or its authors be responsible for any lost, misdirected or stolen funds."
+#~ msgstr "In geen geval zullen {0}{1} of zijn auteurs verantwoordelijk zijn voor verloren, verkeerd gestuurde of gestolen fondsen."
+
+#: src/app/components/DiscordCommands.jsx:88
+#: src/app/components/TelegramCommands.jsx:147
+msgid "Info"
+msgstr "Informatie"
+
+#: src/app/views/Tipbot.jsx:200
+#: src/app/views/Tipbot.jsx:228
+msgid "Invite"
+msgstr "Uitnodigen"
+
+#: src/app/components/SupportForm.jsx:149
+msgid "Issue Description"
+msgstr "Probleem beschrijving"
+
+#: src/app/views/CoinInfo.jsx:242
+#: src/app/views/CoinInfo.jsx:269
+msgid "Join"
+msgstr ""
+
+#: src/app/views/Support.jsx:89
+msgid "Join Discord Support Server"
+msgstr "Word lid van Discord Support Server"
+
+#: src/app/views/dashboard/Discord.jsx:203
+msgid "Login Through Discord"
+msgstr ""
+
+#: src/app/views/dashboard/Discord.jsx:148
+#: src/app/views/dashboard/Telegram.jsx:151
+msgid "Logout"
+msgstr ""
+
+#: src/app/components/DiscordCommands.jsx:610
+msgid "Makes a sleet storm with the desired amount of {0}{1}onto all users that have been active in the channel in the last 15 minutes (optionally, within a specified time)"
+msgstr "Maakt een natte storm met de gewenste hoeveelheid {0}{1} op alle gebruikers die actief zijn geweest in het kanaal in de laatste 15 minuten (optioneel, binnen een gespecificeerde tijd)"
+
+#: src/app/components/DiscordCommands.jsx:1092
+msgid "Mining"
+msgstr "Mijnen"
+
+#: src/app/views/TermsOfService.jsx:204
+msgid "Modification of Terms"
+msgstr ""
+
+#: src/app/components/DiscordCommands.jsx:408
+msgid "Multiple users:"
+msgstr "Meerdere gebruikers:"
+
+#: src/app/components/Uptimerobot.jsx:114
+msgid "No data"
+msgstr "Geen gegevens"
+
+#: src/app/views/TermsOfService.jsx:112
+msgid "Non-Refundable Transactions"
+msgstr ""
+
+#: src/app/components/Uptimerobot.jsx:33
+msgid "Ok"
+msgstr "Oké"
+
+#: src/app/components/DiscordCommands.jsx:882
+msgid "Performs a react airdrop with the amount, optionally within custom time, optionally using a custom-supplied emoji. <time> parameter accepts time interval expressions in the form of: 60s, 5m, 1h. Default time interval is 5m (5minutes)"
+msgstr "Voert een react airdrop uit met het bedrag, optioneel binnen aangepaste tijd, optioneel met een aangepaste emoji. <tijd> parameter accepteert tijdsinterval expressies in de vorm van: 60s, 5m, 1u. Standaard tijdsinterval is 5m (5minuten)"
+
+#: src/app/components/DiscordCommands.jsx:934
+msgid "Performs a trivia with the amount of {0},  optionally with set amount of of people, optionally within custom time. &lt;time&gt; parameter accepts time interval expressions in the form of: 60s, 5m, 1h. Default time interval is 5m (5minutes)"
+msgstr "Voert een trivia uit met het aantal {0}, optioneel met ingesteld aantal personen, optioneel binnen aangepaste tijd. &lt;time&gt; parameter accepteert tijdsinterval uitdrukkingen in de vorm van: 60s, 5m, 1u. Standaard tijdsinterval is 5m (5minuten)"
+
+#: src/app/views/Home.jsx:131
+msgid "Personalized Discord and Telegram tipbots for crypto projects."
+msgstr "Gepersonaliseerde Discord en Telegram tipbots voor crypto projecten."
+
+#: src/app/views/Home.jsx:95
+msgid "Personalized Tipbots"
+msgstr "Gepersonaliseerde Tipbots"
+
+#: src/app/views/PrivacyPolicy.jsx:322
+msgid "Personnel: We keep your information confidential, but may disclose it to our personnel insofar as it is reasonably necessary for the purposes set out in this Privacy Policy. However, this is on the basis that they do not make independent use of the information, and have agreed to safeguard it."
+msgstr "Personeel: Wij houden uw informatie vertrouwelijk, maar kunnen deze bekendmaken aan ons personeel voor zover dit redelijkerwijs noodzakelijk is voor de doeleinden die in dit Privacybeleid worden uiteengezet. Dit echter op voorwaarde dat zij geen onafhankelijk gebruik maken van de informatie, en ermee hebben ingestemd deze te beschermen."
+
+#: src/app/components/SupportForm.jsx:131
+msgid "Platform"
+msgstr "Platform"
+
+#: src/app/views/Support.jsx:114
+msgid "Please note: Using form to contact support has a significant longer wait-time then using the Ticket Tool"
+msgstr "Let op: Het gebruik van een formulier om contact op te nemen met ondersteuning heeft een aanzienlijk langere wachttijd dan het gebruik van de Ticket Tool"
+
+#: src/app/views/Support.jsx:61
+msgid "Prefered way to request support is by opening a ticket with the \"Ticket Tool\" that you find in the Discord community server"
+msgstr "De beste manier om ondersteuning te vragen is door een ticket te openen met de \"Ticket Tool\" die u kunt vinden in de Discord community server"
+
+#: src/app/components/DiscordCommands.jsx:165
+#: src/app/components/TelegramCommands.jsx:102
+msgid "Price"
+msgstr "Prijs"
+
+#: src/app/views/PrivacyPolicy.jsx:72
+#: src/app/views/Tipbot.jsx:161
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+#: src/app/views/TermsOfService.jsx:159
+msgid "Prohibited Conduct"
+msgstr ""
+
+#: src/app/components/DiscordCommands.jsx:439
+#: src/app/components/TelegramCommands.jsx:382
+msgid "Rain"
+msgstr "Regen"
+
+#: src/app/components/DiscordCommands.jsx:664
+msgid "Rains the desired amount of {0}{1}onto all listening users in the mentioned voice channel."
+msgstr "regent de gewenste hoeveelheid {0}{1} op alle luisterende gebruikers in het genoemde spraakkanaal."
+
+#: src/app/components/DiscordCommands.jsx:448
+msgid "Rains the desired amount of {0}{1}onto all online users (optionally, within specified role)"
+msgstr "Regent de gewenste hoeveelheid {0}{1} op alle online gebruikers (optioneel, binnen gespecificeerde rol)"
+
+#: src/app/components/TelegramCommands.jsx:391
+msgid "Rains the desired amount of {0}{1}onto all recently online users"
+msgstr "Regent de gewenste hoeveelheid {0}{1} op alle recent online gebruikers"
+
+#: src/app/components/DiscordCommands.jsx:873
+msgid "Reactdrop"
+msgstr "Reageer Airdrop"
+
+#: src/app/views/PrivacyPolicy.jsx:331
+msgid "Required by law: In addition, we may disclose your information to the extent that we are required to do so by law (which may include to government bodies and law enforcement agencies); in connection with any legal proceedings or prospective legal proceedings; and in order to establish, exercise or defend our legal rights."
+msgstr "Wettelijk verplicht: Daarnaast kunnen wij uw informatie openbaar maken voor zover wij daartoe bij wet verplicht zijn (waaronder mogelijk aan overheidsinstanties en wetshandhavingsinstanties); in verband met gerechtelijke procedures of toekomstige gerechtelijke procedures; en om onze wettelijke rechten vast te stellen, uit te oefenen of te verdedigen."
+
+#: src/app/components/SupportForm.jsx:209
+msgid "Reset"
+msgstr "Resetten"
+
+#: src/app/views/TermsOfService.jsx:136
+msgid "Security Measures"
+msgstr ""
+
+#: src/app/components/DiscordCommands.jsx:1140
+msgid "Show link to {0}{1}support server"
+msgstr "Toon link naar {0}{1}support server"
+
+#: src/app/components/DiscordCommands.jsx:601
+#: src/app/components/TelegramCommands.jsx:428
+msgid "Sleet"
+msgstr "Sleet"
+
+#: src/app/components/TelegramCommands.jsx:437
+msgid "Sleets the desired amount of {0}{1}onto all active users (default time is 15min)"
+msgstr "Slaat de gewenste hoeveelheid {0}{1} op alle actieve gebruikers (standaardtijd is 15min)"
+
+#: src/app/components/DiscordCommands.jsx:493
+msgid "Soak"
+msgstr "Week"
+
+#: src/app/components/DiscordCommands.jsx:502
+msgid "Soaks the desired amount of {0}{1}onto all online and idle users (optionally, within specified role)"
+msgstr "Weekt de gewenste hoeveelheid {0}{1} op alle online en inactieve gebruikers (optioneel, binnen gespecificeerde rol)"
+
+#: src/app/components/SupportForm.jsx:188
+msgid "Something went wrong, please retry submitting"
+msgstr "Er is iets misgegaan, probeer opnieuw in te dienen"
+
+#: src/app/components/DiscordCommands.jsx:205
+msgid "Statistics"
+msgstr "Statistieken"
+
+#: src/app/components/SupportForm.jsx:170
+msgid "Submit"
+msgstr "Indienen"
+
+#: src/app/components/SupportForm.jsx:230
+msgid "Successfully Send Support Request"
+msgstr "Succesvol verzonden ondersteuningsverzoek"
+
+#: src/app/components/DiscordCommands.jsx:1131
+#: src/app/containers/Header.jsx:226
+#: src/app/views/Support.jsx:39
+msgid "Support"
+msgstr "Support"
+
+#: src/app/components/TelegramCommands.jsx:37
+msgid "Telegram Commands"
+msgstr "Telegram commando's"
+
+#: src/app/views/Home.jsx:334
+#~ msgid "Telegram Tipbots"
+#~ msgstr "Telegram Tipbots"
+
+#: src/app/views/TermsOfService.jsx:74
+#: src/app/views/Tipbot.jsx:131
+msgid "Terms of Service"
+msgstr "Voorwaarden van de Dienst"
+
+#: src/app/views/PrivacyPolicy.jsx:152
+msgid "The Services may contain links to services owned and operated by third parties. (BlockExplorer, Coin Project Website, Advertisement, ...)"
+msgstr "De Diensten kunnen links bevatten naar diensten die eigendom zijn van en beheerd worden door derden. (BlockExplorer, Website van het Muntproject, Advertentie, ...)"
+
+#: src/app/views/TermsOfService.jsx:144
+msgid "The security of the user's tipbot wallet is dependent on the security measures implemented by the user for their Discord account. {0} encourages the use of additional security measures such as two-factor authentication to protect the user's account. {1} shall use reasonable efforts to maintain industry standard security practices and the user's wallet shall be powered by reliable technology. In the event of security concerns, the user may contact {2}'s support team for assistance."
+msgstr ""
+
+#: src/app/views/PrivacyPolicy.jsx:95
+msgid "This Privacy Policy (“Privacy Policy“) apply to the use of the service (“Service“, “Bot“) provided by {0}{1}(hereinafter also referred as “we” or “us”)."
+msgstr "Dit Privacybeleid (\"Privacybeleid\") is van toepassing op het gebruik van de dienst (\"Dienst\", \"Bot\") aangeboden door {0}{1}(hierna ook aangeduid als \"wij\" of \"ons\")."
+
+#: src/app/components/DiscordCommands.jsx:709
+msgid "Thunder"
+msgstr "Donder"
+
+#: src/app/components/DiscordCommands.jsx:763
+msgid "ThunderStorm"
+msgstr "DonderStorm"
+
+#: src/app/components/DiscordCommands.jsx:371
+#: src/app/components/TelegramCommands.jsx:275
+msgid "Tip"
+msgstr "Tip"
+
+#: src/app/components/SupportForm.jsx:110
+msgid "Tipbot"
+msgstr "Tipbot"
+
+#: src/app/containers/Header.jsx:121
+#~ msgid "Tipbots"
+#~ msgstr "Tipbots"
+
+#: src/app/views/dashboard/Discord.jsx:44
+msgid "Tipbots - Discord Dashboard"
+msgstr ""
+
+#: src/app/views/dashboard/ActivityHistory.jsx:50
+msgid "Tipbots - History"
+msgstr ""
+
+#: src/app/views/Home.jsx:36
+msgid "Tipbots - Home"
+msgstr ""
+
+#: src/app/views/Support.jsx:19
+msgid "Tipbots - Support"
+msgstr ""
+
+#: src/app/views/dashboard/Telegram.jsx:45
+msgid "Tipbots - Telegram Dashboard"
+msgstr ""
+
+#: src/app/views/dashboard/TransactionHistory.jsx:49
+msgid "Tipbots - Transaction History"
+msgstr ""
+
+#: src/app/views/Uptime.jsx:22
+msgid "Tipbots - Uptime"
+msgstr ""
+
+#: src/app/views/Tipbot.jsx:39
+msgid "Tipbots - {0}"
+msgstr ""
+
+#: src/app/components/DiscordCommands.jsx:718
+msgid "Tips a random lucky online user with an amount of {0}{1}(optionally, within specified role)"
+msgstr "Tipt een willekeurige gelukkige online gebruiker met een bedrag van {0}{1}(optioneel, binnen gespecificeerde rol)"
+
+#: src/app/components/DiscordCommands.jsx:827
+msgid "Tips a specified number (max: 50) random lucky online and idle users with part of the amount of {0}{1}(optionally, within specified role)"
+msgstr "Tipt een gespecificeerd aantal (max: 50) willekeurige online en inactieve gebruikers met een deel van het bedrag van {0}{1} (optioneel, binnen gespecificeerde rol)"
+
+#: src/app/components/DiscordCommands.jsx:772
+msgid "Tips a specified number (max: 50) random lucky online users with part of the amount of {0}{1}(optionally, within specified role)"
+msgstr "Tipt een gespecificeerd aantal (max: 50) willekeurige gelukkige online gebruikers een deel van het bedrag van {0}{1}(optioneel, binnen gespecificeerde rol)"
+
+#: src/app/components/DiscordCommands.jsx:380
+#: src/app/components/TelegramCommands.jsx:284
+msgid "Tips the @ mentioned user with the desired amount of {0}"
+msgstr "Tipt de @ genoemde gebruiker met de gewenste hoeveelheid van {0}"
+
+#: src/app/views/PrivacyPolicy.jsx:363
+msgid "To make a request, please let contact support or the developer on discord: Bago#7842"
+msgstr "Om een verzoek in te dienen, kunt u contact opnemen met support of de ontwikkelaar op discord: Bago#7842"
+
+#: src/app/views/Home.jsx:155
+#~ msgid "Top quality personalized tipbots for bitcoin forks, zcash forks, komodo smartchains with dedicated developer and support."
+#~ msgstr "Topkwaliteit gepersonaliseerde tipbots voor bitcoin forks, zcash forks, komodo smartchains met toegewijde ontwikkelaar en ondersteuning."
+
+#: src/app/views/dashboard/TransactionHistory.jsx:137
+msgid "Transaction History"
+msgstr ""
+
+#: src/app/components/DiscordCommands.jsx:925
+msgid "Trivia"
+msgstr "Trivia"
+
+#: src/app/components/DiscordCommands.jsx:988
+msgid "Turns @mentioning you during mass operations on/off"
+msgstr "Schakelt @gebruikers-vermelding tijdens massaoperaties aan/uit"
+
+#: src/app/components/Uptimerobot.jsx:35
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: src/app/containers/Header.jsx:202
+msgid "Uptime"
+msgstr "Uptime"
+
+#: src/app/views/Uptime.jsx:42
+msgid "Uptime Monitor"
+msgstr "Uptime Monitor"
+
+#: src/app/views/CoinInfo.jsx:188
+#: src/app/views/CoinInfo.jsx:215
+msgid "View"
+msgstr ""
+
+#: src/app/views/Uptime.jsx:79
+msgid "View monitor on"
+msgstr "Bekijk monitor op"
+
+#: src/app/components/Uptimerobot.jsx:192
+msgid "View {0} status on UpTimeRobot"
+msgstr "Bekijk {0} status op UpTimeRobot"
+
+#: src/app/components/DiscordCommands.jsx:655
+msgid "VoiceRain"
+msgstr "Stem Kanaal Regen"
+
+#: src/app/views/TermsOfService.jsx:182
+msgid "Wallet Recommendations"
+msgstr ""
+
+#: src/app/views/PrivacyPolicy.jsx:119
+msgid "We are committed to protecting and respecting your privacy. The Privacy Policy explains the basis on which personal information we collect from you will be processed by us or on our behalf. Where we decide the purpose or means for which personal data you supply through these Services is processed, we are the “controller”. Where you decide the purpose or means for which personal data you supply through these Services is processed, you are the “controller”. We will comply with proper and applicable data protection laws."
+msgstr "Wij verbinden ons ertoe uw privacy te beschermen en te respecteren. In het Privacybeleid wordt uitgelegd op welke basis de persoonsgegevens die wij van u verzamelen, door ons of namens ons worden verwerkt. Wanneer wij beslissen over het doel van of de middelen voor de verwerking van persoonsgegevens die u via deze Services verstrekt, zijn wij de \"verantwoordelijke\". Wanneer u beslist over het doel van of de middelen voor de verwerking van de persoonsgegevens die u via deze diensten verstrekt, bent u de \"verantwoordelijke\". Wij zullen ons houden aan de juiste en toepasselijke wetgeving inzake gegevensbescherming."
+
+#: src/app/views/PrivacyPolicy.jsx:197
+msgid "We collect and process the following information which may include your personal data."
+msgstr "Wij verzamelen en verwerken de volgende informatie, die uw persoonsgegevens kan omvatten."
+
+#: src/app/views/PrivacyPolicy.jsx:161
+msgid "We do NOT provide third-parties any personal data."
+msgstr "Wij verstrekken GEEN persoonlijke gegevens aan derden."
+
+#: src/app/views/PrivacyPolicy.jsx:313
+msgid "We do NOT sell your personal data and we don’t provide it to anyone outside our organisation for any other purpose than the Service you subscribed for."
+msgstr "Wij verkopen uw persoonlijke gegevens NIET en wij verstrekken ze aan niemand buiten onze organisatie voor enig ander doel dan de Dienst waarop u geabonneerd bent."
+
+#: src/app/views/PrivacyPolicy.jsx:216
+msgid "We do not access or store emails or phone numbers for our Discord bot users."
+msgstr "Wij hebben geen toegang tot of slaan geen e-mails of telefoonnummers op voor onze Discord bot gebruikers."
+
+#: src/app/views/TermsOfService.jsx:124
+#~ msgid "We don't reverse or refund any tips that made by the user. Please check twice before making any tips."
+#~ msgstr "Wij keren niet terug of betalen om het even welke fooien terug die door de gebruiker worden gemaakt. Gelieve te controleren tweemaal alvorens om het even welke uiteinden te maken."
+
+#: src/app/views/PrivacyPolicy.jsx:132
+msgid "We encourage you to read this Privacy Policy carefully as it contains important information about the following:"
+msgstr "Wij raden u aan dit Privacybeleid zorgvuldig te lezen, aangezien het belangrijke informatie bevat over het volgende:"
+
+#: src/app/views/PrivacyPolicy.jsx:170
+msgid "We may make changes to this Privacy Policy in the future. You should check this page from time to time to ensure you are aware of any changes. Where appropriate we may notify you of such changes."
+msgstr "Wij kunnen in de toekomst wijzigingen aanbrengen in dit Privacybeleid. U dient deze pagina van tijd tot tijd te controleren om er zeker van te zijn dat u op de hoogte bent van eventuele wijzigingen. Waar nodig kunnen wij u van dergelijke wijzigingen op de hoogte brengen."
+
+#: src/app/views/Support.jsx:53
+msgid "We offer extensive tipbot support in the Runebase Discord community server."
+msgstr "Wij bieden uitgebreide tipbot ondersteuning in de Runebase Discord community server."
+
+#: src/app/views/PrivacyPolicy.jsx:239
+msgid "We only store and process your personal data when you have voluntarily supplied us with it such as adding {0}{1}on your server or by interacting with {2}.{3}Your personal data will only be disclosed or otherwise transmitted if this is necessary to implement the contract, render our Services or you have given your prior consent."
+msgstr "Wij slaan uw persoonsgegevens alleen op en verwerken deze wanneer u ons deze vrijwillig hebt verstrekt, bijvoorbeeld door {0}{1}toe te voegen op uw server of door interactie met {2}.{3}Uw persoonsgegevens worden alleen openbaar gemaakt of op andere wijze doorgegeven indien dit noodzakelijk is om het contract uit te voeren, en onze diensten te kunnen verlenen of indien u vooraf toestemming hebt gegeven."
+
+#: src/app/views/TermsOfService.jsx:222
+#~ msgid "We reserve the right to change or modify any of the terms and conditions contained in the ToS, at any time and in our sole discretion. Any changes or modifications will be effective immediately"
+#~ msgstr "Wij behouden ons het recht voor de voorwaarden en bepalingen in de gebruikersvoorwaarde te allen tijde en naar eigen goeddunken te wijzigen of aan te passen. Alle veranderingen of wijzigingen zullen onmiddellijk van kracht zijn"
+
+#: src/app/views/PrivacyPolicy.jsx:267
+msgid "We will use information about you for delivering our Services to you under the terms of use agreed between us. The processing of information in this way is necessary for us to provide you the Service properly and to ensure the features function properly so that you have the best Service possible."
+msgstr "Wij zullen informatie over u gebruiken voor het leveren van onze Diensten aan u onder de gebruiksvoorwaarden die tussen ons zijn overeengekomen. Het op deze wijze verwerken van informatie is voor ons noodzakelijk om u de Dienst naar behoren te kunnen verlenen en om ervoor te zorgen dat de functies naar behoren functioneren zodat u de best mogelijke Dienst heeft."
+
+#: src/app/views/PrivacyPolicy.jsx:141
+msgid "What information we may collect about you; How we will use the information we collect about you; Whether we will disclose your details to anyone else; And your choices and rights regarding the personal information you have provided to us."
+msgstr "Welke informatie wij over u kunnen verzamelen; Hoe wij de informatie die wij over u verzamelen zullen gebruiken; Of wij uw gegevens aan iemand anders zullen verstrekken; En uw keuzes en rechten met betrekking tot de persoonlijke informatie die u ons hebt verstrekt."
+
+#: src/app/views/TermsOfService.jsx:243
+#~ msgid "When using {0},  you agree to the terms and conditions above."
+#~ msgstr "Wanneer u {0} gebruikt, gaat u akkoord met de bovenstaande voorwaarden."
+
+#: src/app/components/DiscordCommands.jsx:322
+#: src/app/components/TelegramCommands.jsx:519
+msgid "Withdraw"
+msgstr "Opnemen"
+
+#: src/app/components/TelegramCommands.jsx:528
+msgid "Withdraws an entered amount to a {0}{1}address of your choice"
+msgstr "Neemt het ingevoerd bedrag op naar een {0}{1}adres naar keuze"
+
+#: src/app/components/DiscordCommands.jsx:331
+msgid "Withdraws the entered amount to a {0}{1}address of your choice"
+msgstr "Neemt het ingevoerde bedrag op naar een {0}{1}adres naar keuze"
+
+#: src/app/views/PrivacyPolicy.jsx:354
+msgid "You have the following rights over the way your personal data are processed."
+msgstr "U heeft de volgende rechten over de manier waarop uw persoonsgegevens worden verwerkt."
+
+#: src/app/views/PrivacyPolicy.jsx:372
+msgid "You have the right to request a copy of the personal information we process about you and to have any inaccuracies corrected. You can ask us to restrict, stop processing personal data."
+msgstr "U hebt het recht om een ​​kopie op te vragen van de persoonlijke informatie die wij over u verwerken en om eventuele onjuistheden te laten corrigeren. U kunt ons vragen om de verwerking van persoonsgegevens te beperken, stop te zetten."
+
+#: src/app/views/PrivacyPolicy.jsx:205
+msgid "Your Discord ID, Discord Username, Discord Server ID & Name, Discord Channel ID & Name, your user preferences as well as all the data you supply to us and information provided by you when using the Service ({0})."
+msgstr "Uw Discord-ID, Discord-gebruikersnaam, Discord-server-ID en naam, Discord-kanaal-ID en naam, uw gebruikersvoorkeuren en alle gegevens die u aan ons verstrekt en informatie die u verstrekt bij het gebruik van de Service ({0})."
+
+#: src/app/views/TermsOfService.jsx:150
+#~ msgid "Your tipbot wallet security is as safe as your Discord account is. Use features like two-factor authentication to keep your account secure. In regards to {0}'s{1}security, we hold up to industry standards. Your wallet is powered by proven technology. In case of concerns, please contact our support."
+#~ msgstr "De veiligheid van je Tipbot-portemonnee is net zo veilig als je Discord-account. Gebruik functies zoals twee-factor authenticatie om je account veilig te houden. Wat betreft {0}'s{1}veiligheid, wij voldoen aan de industriestandaarden. Uw portemonnee wordt aangedreven door bewezen technologie. In geval van problemen, neem contact op met onze klantenservice."
+
+#: src/app/components/Uptimerobot.jsx:176
+msgid "availability {0}%"
+msgstr "beschikbaarheid {0}%"
+
+#: src/app/components/Uptimerobot.jsx:111
+#~ msgid "down"
+#~ msgstr "down"
+
+#: src/app/views/TermsOfService.jsx:90
+#~ msgid "is beta software"
+#~ msgstr "is beta software"
+
+#: src/app/components/Uptimerobot.jsx:108
+#~ msgid "none"
+#~ msgstr "geen"
+
+#: src/app/components/Uptimerobot.jsx:105
+#~ msgid "ok"
+#~ msgstr "oké"
+
+#: src/app/components/Uptimerobot.jsx:175
+msgid "outages {0} times，outage-time {1}，average availability {2}%"
+msgstr "uitval {0} keer, uitvaltijd {1}, gemiddelde beschikbaarheid {2}%"
+
+#: src/app/components/Uptimerobot.jsx:168
+msgid "recent {CountDays} day"
+msgstr "recent {CountDays} dag"
+
+#: src/app/components/Uptimerobot.jsx:167
+msgid "recent {CountDays} days"
+msgstr "recente {CountDays} dagen"
+
+#: src/app/views/TermsOfService.jsx:142
+#~ msgid "security"
+#~ msgstr "veiligheid"
+
+#: src/app/components/Uptimerobot.jsx:153
+msgid "today"
+msgstr "vandaag"
+
+#: src/app/views/PrivacyPolicy.jsx:31
+msgid "{0} - Privacy Policy"
+msgstr ""
+
+#: src/app/views/TermsOfService.jsx:33
+msgid "{0} - Terms of Service"
+msgstr ""
+
+#: src/app/views/TermsOfService.jsx:190
+msgid "{0} advises users to exercise caution when storing funds in their tipbot wallet and recommends keeping only a minimal amount of funds in the wallet. Users should consider storing larger amounts of funds in a non-custodial wallet."
+msgstr ""
+
+#: src/app/views/TermsOfService.jsx:167
+msgid "{0} reserves the right to freeze and seize the funds of any user who engages in prohibited conduct, including but not limited to, fraudulent or abusive behavior. {1} also reserves the right to freeze accounts that are suspicious in nature until such time as the account is proven to be legitimate."
+msgstr ""
+
+#: src/app/views/TermsOfService.jsx:212
+msgid "{0} reserves the right to modify these terms of service at any time without notice to the user. Any modifications shall be binding and effective immediately upon posting."
+msgstr ""
+
+#: src/app/views/TermsOfService.jsx:116
+#~ msgid "{0}Tips are non-reversible and non-refundable."
+#~ msgstr "{0}Tips zijn niet omkeerbaar en niet terugbetaalbaar."
+
+#: src/app/views/TermsOfService.jsx:96
+msgid "{0}{1}is a beta software and as such, users access and utilize the software at their own risk. In no event shall {2} or its authors be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with the use of the software, including but not limited to loss of profits, data, or other intangible losses."
+msgstr ""

@@ -1,0 +1,115 @@
+// Containers
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'TeXGyreHeros-Regular';
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.tipBotLinkLogo {
+  width: 128px;
+  height: 128px;
+}
+
+.tipBotLinkLogoContainer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content {
+  position: relative;
+  flex: 1;
+  padding-bottom: 50px;
+  color: var(--textColorGlobal);
+}
+
+.content a:hover, .content button:hover {
+ background-position: 0;
+ -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+     filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+}
+
+.height100 {
+  height: 100%;
+}
+
+.content th {
+  color: var(--textColorGlobal);
+}
+
+.content td {
+  color: var(--textColorGlobal);
+}
+
+.content {
+  z-index: 0;
+  color: var(--textColorGlobal);
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+h2 {
+  text-shadow: 0 0 black;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+label.outlined-email-field-label {
+  color: var(--textColorGlobal);
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-edgeEnd {
+  color: var(--textColorGlobal);
+}
+
+label.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-outlined {
+  color: var(--textColorGlobal);
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: var(--textColorGlobal) !important;
+}
+
+input.outlined-email-field {
+  color: var(--textColorGlobal);
+}
+
+input.outlined-adornment-password {
+  color: var(--textColorGlobal);
+}
+
+.form-error {
+  color: red;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+code, .code, pre {
+  background: #292929;
+  color: #fafafa;
+  padding: 10px;
+  display: block;
+  word-wrap: break-word;
+  &:before {
+    display: block;
+    width: calc(100%);
+    margin-top: -3px;
+    padding: 3px;
+  }
+}
+
+p {
+  white-space: break-spaces;
+}

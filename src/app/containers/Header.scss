@@ -1,0 +1,69 @@
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.mobileNav path {
+  color: var(--menuMobileNavColor);
+}
+
+.mobileToggleColor {
+  stroke: var(--menuMobileNavColor)
+}
+
+.navbar {
+  z-index: 1;
+  position: fixed;
+  padding: 0rem 1rem;
+  background-color: var(--footer);
+  -webkit-box-shadow: 0 4px 10px -2px var(--menuBorderShadow);
+  -moz-box-shadow: 0 4px 10px -2px var(--menuBorderShadow);
+  box-shadow: 0 4px 10px -2px var(--menuBorderShadow);
+}
+
+.menuIcon {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+   font-size: 1.25rem;
+   line-height: 1;
+   border: 1px solid var(--menuMobileNavColor);
+   border-radius: 0.25rem;
+   border-color: var(--menuMobileNavColor);
+}
+
+.toggleLangWrapper {
+  display: inline-flex;
+  float: right;
+  clear: both;
+}
+
+header {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.buttonMenuIcon {
+  margin-right: 0.5rem;  
+}
+
+.headerMenuTextColor {
+  color: var(--buttonColorMenu);
+}
+
+.initHeaderHeight {
+  height: 64px;
+}
