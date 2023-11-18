@@ -1,7 +1,7 @@
 {
-  "name": "tipbots-website",
+  "name": "runebase-dapp",
   "version": "0.0.2",
-  "description": "Website for Tipbots",
+  "description": "dapp related activities for Runebase",
   "scripts": {
     "lingui:extract": "lingui extract",
     "lingui:compile": "lingui compile",
@@ -25,18 +25,17 @@
   "keywords": [
     "Runes",
     "Runebase",
-    "Tipbot",
-    "RunesTip",
-    "PirateTip",
-    "TokelTip",
-    "Discord",
-    "Telegram",
-    "Matrix",
-    "Website"
+    "Staking",
+    "Delegations",
+    "Delegating",
+    "SuperStakers",
+    "SuperStaker",
+    "Crypto",
+    "Web3",
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobpepers/Tipbots-Website"
+    "url": "git+https://github.com/bobpepers/runebase-dapp"
   },
   "author": "Jonas Collier",
   "devDependencies": {
