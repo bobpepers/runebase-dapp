@@ -131,7 +131,11 @@ export const DELEGATIONS_ABI = [
 
 export const DELEGATION_CONTRACT_ADDRESS = '0000000000000000000000000000000000000086';
 
-export const apiUrl = process.env.ENV === 'development' ? 'https://devwebsite.runebase.io/api' : 'https://discord.runebase.io/api';
+export const apiUrl = process.env.ENV === 'development'
+  ? 'https://devwebsite.runebase.io/api'
+  : 'https://discord.runebase.io/api';
 
 export const ADD_DELEGATION = '4c0e968c';
 export const REMOVE_DELEGATION = '3d666e8b';
+
+export const RunebaseChromeDownloadLink = 'https://chromewebstore.google.com/detail/runebasechrome/gnfdbibmnlkehibhabjohlbiehhbhkhd';

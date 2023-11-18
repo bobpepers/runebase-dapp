@@ -12,7 +12,6 @@ import {
   CardActions,
   Button,
 } from '@mui/material';
-
 import { connect } from 'react-redux';
 import { DELEGATION_CONTRACT_ADDRESS } from '../constants';
 import { withRouter } from '../hooks/withRouter';
@@ -53,6 +52,12 @@ const SuperStakerCard = function (props) {
     }
   }
 
+  // const login = async () => {
+  //   if (window.runebasechrome) {
+  //     window.runebasechrome.utils.openWallet();
+  //   }
+  // }
+
   return (
     <Card sx={{ minWidth: 275 }}>
       <CardContent>
@@ -89,39 +94,28 @@ const SuperStakerCard = function (props) {
         </Typography>
       </CardContent>
       <CardActions>
-        { account && account.data && account.data.loggedIn ? (
-          <>
-            <Button
-              variant="contained"
-              onClick={() => {
-                addDelegation(
-                  superstaker.address,
-                )
-              }}
-            >
-              Delegate
-            </Button>
-            <Button
-              variant="contained"
-              onClick={() => {
-                removeDelegation(
-                  superstaker.address,
-                )
-              }}
-            >
-              Undelegate
-            </Button>
-          </>
-        ) : (
-          <Button
-            variant="contained"
-            onClick={(e) => {
-              console.log(e)
-            }}
-          >
-            Log in
-          </Button>
-        )}
+        <Button
+          variant="contained"
+          disabled={!account || !account.data || !account.data.loggedIn}
+          onClick={() => {
+            addDelegation(
+              superstaker.address,
+            )
+          }}
+        >
+          Delegate
+        </Button>
+        <Button
+          variant="contained"
+          disabled={!account || !account.data || !account.data.loggedIn}
+          onClick={() => {
+            removeDelegation(
+              superstaker.address,
+            )
+          }}
+        >
+          Undelegate
+        </Button>
       </CardActions>
     </Card>
   );

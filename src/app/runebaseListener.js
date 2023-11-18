@@ -5,30 +5,35 @@ import abi from 'ethjs-abi';
 import { SET_ACCOUNT } from './actions/types';
 import { DELEGATIONS_ABI, DELEGATION_CONTRACT_ADDRESS } from './constants';
 
-window.postMessage({ message: { type: 'CONNECT_RUNEBASECHROME' } }, '*');
-
 function RunebaseListener({ children }) {
   const dispatch = useDispatch();
   useEffect(() => {
+    window.postMessage({ message: { type: 'CONNECT_RUNEBASECHROME' } }, '*');
     const listenRunebaseChrome = (event) => {
-      if (event.data.message) console.log(event.data.message.type);
-      if (event.data.message) {
-        if (event.data.message.type === 'RUNEBASECHROME_ACCOUNT_CHANGED') {
-          if (event.data.message.payload.error) console.log(event.data.message.payload.error);
-          dispatch({
-            type: SET_ACCOUNT,
-            payload: event.data.message.payload.account,
-          });
-        }
-        if (event.data.message.type === 'RUNEBASECHROME_INSTALLED_OR_UPDATED') {
-          window.location.reload()
+      const { data: { message, target } } = event;
+      if (message) {
+        const { payload, type } = message;
+        if (message && payload && payload.error) {
+          console.log(payload.error)
+        } else {
+          if (type === 'CONNECT_RUNEBASECHROME') console.log('CONNECT_RUNEBASECHROME_RESOLVED');
+          if (type === 'RUNEBASECHROME_ACCOUNT_CHANGED') dispatch({ type: SET_ACCOUNT, payload: payload.account });
+          if (type === 'RUNEBASECHROME_INSTALLED_OR_UPDATED') {
+            window.location.reload()
+          }
         }
       }
 
       // inPage events
-      if (event.data.target === 'runebasechrome-inpage') {
-        const { result, error } = event.data.message.payload;
-        if (event.data.message.type === 'SIGN_POD_RESPONSE') {
+      if (target === 'runebasechrome-inpage') {
+        const { payload: { result, error }, type } = event.data.message;
+        if (error) {
+          if (error === 'Not logged in. Please log in to RunebaseChrome first.') {
+            console.log(error);
+          } else {
+            console.log(error);
+          }
+        } else if (type === 'SIGN_POD_RESPONSE') {
           if (result && result.podMessage) {
             const hexAddress = runebase.address.fromBase58Check(result.superStakerAddress).hash.toString('hex');
             const params = [`0x${hexAddress}`, 10, result.podMessage];
@@ -55,15 +60,6 @@ function RunebaseListener({ children }) {
                 gasPrice,
               ],
             );
-          }
-        }
-        if (error) {
-          if (error === 'Not logged in. Please log in to RunebaseChrome first.') {
-            // Handle not logged in error
-            console.log(error);
-          } else {
-            // Handle other errors
-            console.log(error);
           }
         }
       }

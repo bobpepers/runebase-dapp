@@ -15,11 +15,13 @@ import {
   Grid,
   Divider,
   Typography,
+  Button,
 } from '@mui/material';
 import Runebase from '../assets/images/runebaseloop.gif';
 import { withRouter } from '../hooks/withRouter';
 import { fetchSuperStakersAction } from '../actions/superStakers';
 import SuperStakerCard from '../components/SuperStakerCard';
+import { RunebaseChromeDownloadLink } from '../constants';
 
 const Home = function (props) {
   const {
@@ -30,6 +32,7 @@ const Home = function (props) {
   useEffect(() => { document.title = t`Staking - Home`; }, []);
   useEffect(() => { dispatch(fetchSuperStakersAction()); }, []);
   useEffect(() => {}, [superstakers, account]);
+  useEffect(() => {}, [window.runebasechrome]);
 
   // Signed in test
   useEffect(
@@ -106,17 +109,23 @@ const Home = function (props) {
             <Grid
               item
               xs={12}
+              textAlign="center"
             >
-              <Typography
-                variant="h3"
-                align="center"
+              <Button
+                href={RunebaseChromeDownloadLink}
+                target="_blank"
+                variant="outlined"
+                size="large"
               >
-                Please Install Runebase Chrome to use this website
-              </Typography>
+                Please Install Runebase Chrome to gain full functionality of this website
+              </Button>
             </Grid>
           )
         }
-        { account && account.data && account.data.loggedIn ? (
+        { window.runebasechrome
+          && account
+          && account.data
+          && account.data.loggedIn && (
           <Grid
             container
             item
@@ -136,7 +145,7 @@ const Home = function (props) {
                 variant="body2"
                 align="center"
               >
-                {account.address}
+                {account.data.address}
               </Typography>
             </Grid>
             <Grid
@@ -157,23 +166,26 @@ const Home = function (props) {
                 gutterBottom
                 fullWidth
               >
-                {account.balance}
+                {account.data.balance}
               </Typography>
             </Grid>
           </Grid>
-        ) : (
-          <Grid
-            item
-            xs={12}
-          >
-            <Typography
-              variant="h6"
-              align="center"
-            >
-              Please login into Runebase Chrome
-            </Typography>
-          </Grid>
         )}
+        {
+          window.runebasechrome && (!account || !account.data.loggedIn) && (
+            <Grid
+              item
+              xs={12}
+            >
+              <Typography
+                variant="h6"
+                align="center"
+              >
+                Please connect to Runebase Chrome to gain full functionality of this website.
+              </Typography>
+            </Grid>
+          )
+        }
         {
           superstakers
           && superstakers.data
@@ -208,15 +220,43 @@ const Home = function (props) {
 Home.propTypes = {
   account: PropTypes.shape({
     data: PropTypes.shape({
-    }),
-  }).isRequired,
+      loggedIn: PropTypes.bool.isRequired,
+      address: PropTypes.string.isRequired,
+      balance: PropTypes.number.isRequired,
+    }).isRequired,
+  }),
   superstakers: PropTypes.shape({
-    data: PropTypes.shape([]),
-  }).isRequired,
+    data: PropTypes.arrayOf(
+      PropTypes.shape({
+        id: PropTypes.number.isRequired,
+        address: PropTypes.string.isRequired,
+        note: PropTypes.string,
+        cycles: PropTypes.number,
+        totalBlocksProduced: PropTypes.number,
+        score: PropTypes.number,
+        firstRegisteredOn: PropTypes.string,
+        lastProducedBlock: PropTypes.string,
+      }),
+    ),
+  }),
+};
+
+Home.defaultProps = {
+  account: {
+    data: {
+      loggedIn: false,
+      address: '',
+      balance: 0,
+      // Set default values for other properties as needed
+    },
+  },
+  superstakers: {
+    data: [],
+  },
 };
 
 const mapStateToProps = (state) => ({
-  botInfo: state.botInfo,
+  account: state.account,
   superstakers: state.superstakers,
 })
 
